@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #f5f1f1;
+    height: 100vh;
+    width: 100vw;
+}
+
+    .radio {
+        background-color: #996533;
+        position: relative;
+        width: 50%;
+        height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        top: 12vh;
+        border: 1px solid #0000;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    }
+
+.black-box-container {
+    position: relative;
+    width: 95%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.box {
+    position: relative;
+    margin-left: 1%;
+    width: 13.28%;
+    height: 96%;
+    top: 2%;
+    background-color: black;
+    float: left;
+    overflow: hidden;
+}
+
+
+/* Box 1 */
+.box1 {
+   margin-left: 0;
+   text-align: center;
+   position: relative;
+}
+
+.box1 button {
+    position: relative;
+    top: 20%;
+    width: 80%;
+    height: 80px;
+}
+
+
+/* Box 2 */
+.box2 {
+    text-align: center;
+}
+ 
+.box2 button {
+    position: relative;
+    top: 20%;
+    width: 80%;
+    height: 80px;
+}
+
+
+/* Box 4 */
+.box4 {
+    text-align: center;
+}
+ 
+.box4 button {
+    position: relative;
+    top: 65%;
+    width: 50%;
+    height: 80px;
+}
+
+
+/* Box 6 */
+.box6 ul {
+    position: relative;
+    top: 25%;
+    text-align: center;
+}
+
+.box6 ul li {
+    list-style: none;
+}
+
+.box6 ul li button {
+    padding: 14px;
+    border-radius: 350px;
+    border: 0px;
+    margin-bottom: 10%;;
+}
+
+
+/* Box 7 */
+.box7 ul {
+    position: relative;
+    top: 25%;
+    text-align: center;
+}
+
+.box7 ul li {
+    list-style: none;
+}
+
+.box7 ul li button {
+    padding: 14px;
+    border-radius: 350px;
+    border: 0px;
+    margin-bottom: 10%;;
+}
+
+
+/* Media Quieries */
+@media screen and (max-width: 1400px) {
+    .radio {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .radio {
+        width: 99%;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    .radio {
+        height: 75%;
+    }
+}
+
+@media screen and (max-height: 350px) {
+    .radio {
+        height: 90%;
+        top: 2vh;
+    }
+}
